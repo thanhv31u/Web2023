@@ -7,6 +7,13 @@
         width: 125px;
         border-radius: 2px;
         cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    .subcribe_button:hover{
+        opacity: 0.8;
+    }
+    .subcribe_button:active{
+        opacity: 0.5;
     }
     .join{
         background-color: white;
@@ -19,10 +26,17 @@
         border-radius: 2px;
         margin-left: 10px;
         cursor: pointer;
-        font-weight: bold;
-        
-        
+        font-weight: bold; 
+        transition: background-color 0.15s,
+        color 0.15s;
  }
+.join:hover{
+    background-color: rgb(62, 82, 181);
+    color: white;
+}
+.join:active{
+    opacity: 0.7;
+}
  .tweet{
             background-color: rgb(2, 137, 255);
             color: white;
@@ -34,7 +48,12 @@
             font-size: 15px;
             cursor: pointer;
             margin-left: 10px;
+            transition: box-shadow 0.15s;
+            
         }
+    .tweet:hover{
+        box-shadow: 5px 5px 10px rgba(0 , 0 , 0, 0.15);
+    }
 .Uber{
     background-color: black;
     color:white;
@@ -42,8 +61,12 @@
     width: 110px;
     margin-top: 10px;
     cursor: pointer;
-    
+    transition: opacity 0.15s;
 }
+.Uber:hover{
+    opacity: 0.8;
+}
+
 .Amazon{
     background-color: rgb(255, 216, 20);
     color:black;
@@ -54,6 +77,10 @@
     font-size: 15px;
     font-weight: 100px;
     cursor: pointer;
+    transition: background-color 0.15s;
+}
+.Amazon:hover{
+    background-color: rgb(237, 200, 17);
 }
 .Github{
     background-color: rgb(46,164,79);
@@ -66,6 +93,10 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.Github:hover{
+    box-shadow: 5px 5px 10px rgba(0 , 0 , 0, 0.15);
 }
 .Bootstrap1{
     margin-top: 10px;
@@ -78,6 +109,10 @@
     font-weight: bold;
     font-size: 13px;
     cursor: pointer;
+    transition: opacity 0.15s;
+}
+.Bootstrap1:hover{
+    opacity: 0.8;
 }
 .Bootstrap2{
     margin-top: 10px;
@@ -91,6 +126,12 @@
     font-weight: bold;
     font-size: 13px;
     cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+}
+.Bootstrap2:hover{
+    background-color: rgb(108,117,125);
+    color: white;
 }
 .Likedln1{
     margin-top: 10px;
@@ -103,6 +144,10 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    transition: background-color 0.15s ;
+}
+.Likedln1:hover{
+    background-color:rgb(4, 76, 148);
 }
 .Likedln2{
     margin-top: 10px;
@@ -116,7 +161,11 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
-
+    transition:background-color 0.15s;
+}
+.Likedln2:hover{
+    background-color:rgb(205, 227, 249);
+    border-width:2.5px;
 }
 
 </style>
